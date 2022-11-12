@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 double a, b, c, discriminant, root1, root2;
-  cout << "Input: ";
+
   cin >> a;
   if (a==0)
   {
