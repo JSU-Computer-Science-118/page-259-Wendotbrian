@@ -37,7 +37,7 @@ root2=(-b-discriminant)/(2*a);   //finds the roots  of the equation
     cout << "Complex roots";
     cout << endl;
   }
-  else
+  else if(discriminant==0)
   {
     cout << "The single root is " << root1;
     cout << endl;
