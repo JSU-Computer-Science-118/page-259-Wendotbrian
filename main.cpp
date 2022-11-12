@@ -1,7 +1,4 @@
-// write your code here
-// Brian Koringo #j00962107  11/04/2022\
-//Quadratic formula
-//This program calculates accepts the input of coefficients of the quadratic equation, calculates the discriminant and outputs the type of roots the equation has also outputs the roots of the equation if the discriminant is >=0
+// Brian Koringo #j00962107  11/04/2022
 #include <iostream>
 #include <string>
 #include <cmath>
