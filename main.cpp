@@ -13,7 +13,7 @@ double a, b, c, discriminant, root1, root2;
   cin >> a;
   if (a==0)
   {
-    cout << "\n" << "Output: " << "Invalid Entry!";
+    cout << "Invalid Entry!";
   }
   else
   {
@@ -26,19 +26,19 @@ root2=(-b-discriminant)/(2*a);   //finds the roots  of the equation
 }
   if (discriminant > 0)
   {
-    cout << "Output:" << "\n" << "Two real roots" << endl;
+    cout << "Two real roots" << endl;
     cout << "- First root " << root1 << endl;
     cout << "- Second root " << root2 << endl;
     cout << endl;
   }
   else if (discriminant < 0)
   {
-    cout << "Output: "<< "Complex roots";
+    cout << "Complex roots";
     cout << endl;
   }
   else
   {
-    cout << "Output: " << "The single root is " << root1;
+    cout << "The single root is " << root1;
     cout << endl;
   }
   return 0;
