@@ -22,6 +22,7 @@ cin >> c;
   
 discriminant= (pow(b,2)-(4*a*c)); //calculates the discriminant
 root1=(-b+discriminant)/(2*a);
+    
 root2=(-b-discriminant)/(2*a);   //finds the roots  of the equation
 }
   if (discriminant > 0)
